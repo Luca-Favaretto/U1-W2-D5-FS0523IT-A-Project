@@ -55,8 +55,8 @@ button {
 /* Header with back ground image */
 header {
   background-image: url(../images/bg-image.png);
-  background-repeat: repeat;
-  background-position: center;
+  background-repeat: round;
+  background-position: bottom;
   margin: 0 2rem 2rem;
   padding: 3rem;
 }
