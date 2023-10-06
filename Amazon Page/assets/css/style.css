@@ -16,10 +16,11 @@ body {
   background-color: #364759;
 }
 main {
-  background-color: white;
+  background-color: #e9edee;
 }
 h1 {
-  font-weight: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 body > img {
@@ -38,37 +39,67 @@ body > img {
   padding: 10px;
 }
 .div-button {
-  margin: 2rem;
+  padding: 2rem;
 }
 button {
   border: none;
 
   padding: 1.2rem;
-  width: 90%;
+  width: 100%;
   background-color: #f56600;
 }
 /* Header with back ground image */
 header {
   background-image: url(../images/bg-image.png);
+  object-fit: contain;
+  background-position: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.in-line_text {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+main a {
+  color: #157283;
+  text-decoration: none;
 }
 
 /* immagini in-line section */
+
 .small-imaga-conteiner {
+  background-color: white;
+  margin: 2rem;
+  text-align: center;
 }
 .small-imaga {
   display: inline-block;
-  margin: 2rem;
-  border-radius: 5px;
 }
 .small-imaga img {
-  height: 20rem;
-  width: 100%;
+  height: 30vw;
+  width: 20vw;
+  margin: 1.2rem;
+
   object-fit: cover;
+  border-radius: 15px;
+  -webkit-box-shadow: 6px 5px 10px 3px rgba(0, 0, 0, 0.26);
+  box-shadow: 6px 5px 10px 3px rgba(0, 0, 0, 0.26);
 }
 
 /* two big immage section  */
 .big-image {
+  width: 90%;
+  margin: 2rem;
 }
-.big-image {
+.big-image img {
+  width: 95vw;
+  object-fit: contain;
 }
 /* footer page */
+
+footer {
+  margin: 4rem;
+}
