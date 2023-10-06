@@ -37,7 +37,8 @@ body > img {
 
 .horizontal-list li {
   display: inline-block;
-  padding: 10px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
 }
 nav > .light-gray {
   padding-left: 2rem;
@@ -54,20 +55,19 @@ button {
 /* Header with back ground image */
 header {
   background-image: url(../images/bg-image.png);
-  object-fit: contain;
+  background-repeat: repeat;
   background-position: center;
   margin: 0 2rem 2rem;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .in-line_text {
   display: inline-block;
-  font-size: 1rem;
-  font-weight: 700;
-  margin: 0 1rem 0 2.3rem;
+
+  margin: 0 0rem 0 1.5rem;
 }
 main a {
-  color: #157283;
+  color: #076e77;
   text-decoration: none;
 }
 header h3 {
@@ -77,11 +77,11 @@ header h3 {
 /* immagini in-line section */
 
 .font-size-plus {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 .font-size-plus-a {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
@@ -99,8 +99,8 @@ header h3 {
 }
 .small-imaga img {
   height: 26vw;
-  width: 20vw;
-  margin: 1.5em;
+  width: 21vw;
+  margin: 1vw;
 
   object-fit: cover;
   border-radius: 15px;
@@ -123,11 +123,11 @@ header h3 {
 /* footer page */
 
 main ~ .light-gray {
-  padding: 1rem;
+  padding: 0.5rem;
   font-weight: 600;
 }
 
 footer img {
   margin: 3rem 3rem 2rem;
-  width: 15rem;
+  width: 10rem;
 }
