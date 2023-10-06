@@ -21,6 +21,7 @@ main {
 h1 {
   font-size: 2rem;
   font-weight: 700;
+  margin: 1rem;
 }
 
 body > img {
@@ -46,8 +47,7 @@ nav > .light-gray {
 }
 button {
   border: none;
-
-  padding: 1.2rem;
+  padding: 0.8rem;
   width: 100%;
   background-color: #f56600;
 }
@@ -57,26 +57,39 @@ header {
   object-fit: contain;
   background-position: center;
   margin: 0 2rem 2rem;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .in-line_text {
   display: inline-block;
   font-size: 1rem;
   font-weight: 700;
-  margin: 1rem;
+  margin: 0 1rem 0 2.3rem;
 }
 main a {
   color: #157283;
   text-decoration: none;
 }
+header h3 {
+  font-weight: 600;
+}
 
 /* immagini in-line section */
+
+.font-size-plus {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.font-size-plus-a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
 .small-imaga-conteiner {
   background-color: white;
   margin: 0 2rem 2rem;
   text-align: center;
+  padding: 1rem 0 0;
 }
 .small-imaga-conteiner section {
   text-align: start;
@@ -87,7 +100,7 @@ main a {
 .small-imaga img {
   height: 26vw;
   width: 20vw;
-  margin: 1rem;
+  margin: 1.5em;
 
   object-fit: cover;
   border-radius: 15px;
@@ -98,16 +111,20 @@ main a {
 /* two big immage section  */
 .big-image {
   width: 90%;
-  margin: 0 2rem 0;
+  margin: 0 2rem 0rem;
 }
 .big-image img {
   width: 95vw;
   object-fit: contain;
 }
+.big-image > div > h3 {
+  margin-bottom: 2rem;
+}
 /* footer page */
 
 main ~ .light-gray {
   padding: 1rem;
+  font-weight: 600;
 }
 
 footer img {
