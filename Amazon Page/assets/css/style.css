@@ -30,13 +30,16 @@ body > img {
 /* nav bar ul horizontal */
 .horizontal-list {
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 0;
   margin: 0;
 }
 
 .horizontal-list li {
   display: inline-block;
   padding: 10px;
+}
+nav > .light-gray {
+  padding-left: 2rem;
 }
 .div-button {
   padding: 2rem;
@@ -53,7 +56,7 @@ header {
   background-image: url(../images/bg-image.png);
   object-fit: contain;
   background-position: center;
-  margin: 2rem;
+  margin: 0 2rem 2rem;
   padding: 2rem;
 }
 
@@ -72,16 +75,19 @@ main a {
 
 .small-imaga-conteiner {
   background-color: white;
-  margin: 2rem;
+  margin: 0 2rem 2rem;
   text-align: center;
+}
+.small-imaga-conteiner section {
+  text-align: start;
 }
 .small-imaga {
   display: inline-block;
 }
 .small-imaga img {
-  height: 30vw;
+  height: 26vw;
   width: 20vw;
-  margin: 1.2rem;
+  margin: 1rem;
 
   object-fit: cover;
   border-radius: 15px;
@@ -92,7 +98,7 @@ main a {
 /* two big immage section  */
 .big-image {
   width: 90%;
-  margin: 2rem;
+  margin: 0 2rem 0;
 }
 .big-image img {
   width: 95vw;
@@ -100,6 +106,11 @@ main a {
 }
 /* footer page */
 
-footer {
-  margin: 4rem;
+main ~ .light-gray {
+  padding: 1rem;
+}
+
+footer img {
+  margin: 3rem 3rem 2rem;
+  width: 15rem;
 }
