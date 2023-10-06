@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1.2;
+  line-height: 1.65;
+
+  background-color: #222f3f;
+}
+.text-in-withe {
+  color: white;
+}
+.text-align-center {
+  text-align: center;
+}
+
+.light-gray {
+  background-color: #364759;
+}
+main {
+  background-color: white;
+}
+h1 {
+  font-weight: 2rem;
+}
+
+body > img {
+  width: 10rem;
+  margin: 1rem 2rem 0.5rem;
+}
+/* nav bar ul horizontal */
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  padding: 10px;
+}
+.div-button {
+  margin: 2rem;
+}
+button {
+  border: none;
+
+  padding: 1.2rem;
+  width: 90%;
+  background-color: #f56600;
+}
+/* Header with back ground image */
+header {
+  background-image: url(../images/bg-image.png);
+}
+
+/* immagini in-line section */
+.small-imaga-conteiner {
+}
+.small-imaga {
+  display: inline-block;
+  margin: 2rem;
+  border-radius: 5px;
+}
+.small-imaga img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* two big immage section  */
+.big-image {
+}
+.big-image {
+}
+/* footer page */
